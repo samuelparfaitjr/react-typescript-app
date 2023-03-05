@@ -38,7 +38,7 @@ Builds the app for production to the build folder.<br />
 
 To learn more about React and TypeScript, check out the following resources:
 
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [React Documentation](https://beta.reactjs.org/)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 - [Create React App Documentation](https://create-react-app.dev/docs/getting-started/)
 - [React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
