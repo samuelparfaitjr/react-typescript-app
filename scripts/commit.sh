@@ -1,18 +1,17 @@
 #!/bin/sh
 
-branch=$(git branch --show-current)
+BRANCH=$(git branch --show-current)
 
 echo "Enter your GIT commit message:"
 
-read msg
+read MSG
 
-if [ -z ${msg} ]
-    then
-        echo "Operation aborted. You provided an empty string!"
-    else
-        git add .
-        git commit -m "${msg}"
-        git push -u origin $branch
+if [ -z "$MSG" ]; then
+    echo "Operation aborted. You provided an empty string!"
+else
+    git add .
+    git commit -m "$MSG"
+    git push -u origin $BRANCH
 fi
 
 echo "Done!"
