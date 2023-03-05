@@ -6,7 +6,7 @@ echo "Enter your GIT commit message:"
 
 read msg
 
-if [ -z ${msg} ]
+if [ -z ${msg} ];
     then
         echo "Operation aborted. You provided an empty string!"
     else
